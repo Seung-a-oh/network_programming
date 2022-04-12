@@ -1,6 +1,7 @@
 import socket
 import struct
 import binascii
+from typing import Protocol
 
 class Udphdr:
     def __init__(self, src, dst, tot_len, check):
@@ -8,6 +9,7 @@ class Udphdr:
         self.dst_port = dst
         self.tot_len = tot_len
         self.checksum = check
+        self.protocol = 17
 
 
     def pack_Udphdr(self):
