@@ -1,8 +1,8 @@
 from socket import *
 import threading
 
-port = 9000
-address = ('localhost', port)
+PORT = 9000
+address = ('localhost', PORT)
 BUFF = 1024
 
 def handler(sock):
@@ -10,10 +10,11 @@ def handler(sock):
         msg = sock.recv(BUFF)
         print(msg.decode())
 
+id = input('ID를 입력하세요: ')
+
 s = socket(AF_INET, SOCK_STREAM)
 s.connect(address)
 
-id = input('ID를 입력하세요: ')
 s.send(('['+id+']').encode())
 
 th = threading.Thread(target=handler, args=(s,))
@@ -22,7 +23,7 @@ th.start()
 
 while True:
     data = input()
-    if data == 'q':
+    if data == 'quit':
         s.send(data.encode())
         break
 
