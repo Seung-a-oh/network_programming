@@ -1,0 +1,14 @@
+Tue Apr 19 12:51:57 2022: Device1: Temp=26, Humid=94, lilum=149
+Tue Apr 19 12:52:00 2022: Device1: Temp=9, Humid=35, lilum=134
+Tue Apr 19 12:52:03 2022: Device1: Temp=19, Humid=89, lilum=102
+Tue Apr 19 12:52:06 2022: Device1: Temp=12, Humid=0, lilum=82
+Tue Apr 19 12:52:09 2022: Device1: Temp=0, Humid=78, lilum=107
+Tue Apr 19 12:52:12 2022: Device1: Temp=19, Humid=30, lilum=138
+Tue Apr 19 12:52:15 2022: Device1: Temp=23, Humid=68, lilum=144
+Tue Apr 19 12:52:17 2022: Device1: Temp=7, Humid=15, lilum=114
+Tue Apr 19 12:52:18 2022: Device1: Temp=36, Humid=24, lilum=112
+Tue Apr 19 12:52:20 2022: Device1: Temp=18, Humid=5, lilum=125
+Tue Apr 19 12:52:21 2022: Device1: Temp=29, Humid=99, lilum=92
+Tue Apr 19 12:52:23 2022: Device1: Temp=27, Humid=46, lilum=116
+Tue Apr 19 12:52:24 2022: Device1: Temp=33, Humid=88, lilum=74
+Tue Apr 19 12:52:24 2022: Deviceq: uit1Temp=37, Humid=83, lilum=123
